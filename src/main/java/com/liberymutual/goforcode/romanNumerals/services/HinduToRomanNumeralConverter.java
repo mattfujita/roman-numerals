@@ -1,14 +1,9 @@
 package com.liberymutual.goforcode.romanNumerals.services;
 
 public class HinduToRomanNumeralConverter {
-	
-	String result;
-	
-	public HinduToRomanNumeralConverter() {
-		result = "";
-	}
 
 	public String convert(int numberToConvert) {
+		String result = "";
 		
 		while(numberToConvert >= 1000) {
 			result += "M";
